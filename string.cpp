@@ -15,7 +15,7 @@ int main()
 
     string s2;
     cout<<"enter string : ";
-    getline(cin,s2);           // its take sentance in input
+    getline(cin,s2);           //getline is use than its take sentance in input
     cout<<"name : "<<s2<<endl;
     
     return 0;
