@@ -11,8 +11,8 @@ int main()
 {
     int a;
     a=12;
-    cout<<a<<endl;
+    cout<<"before"<<a<<endl;
     fun(&a);
-    cout<<"bad me "<<a<<endl;
+    cout<<"after "<<a<<endl;
 
 }
