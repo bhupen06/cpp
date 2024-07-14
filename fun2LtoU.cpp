@@ -4,7 +4,7 @@ using namespace std;
 string uper(string a)
 {
     int i;
-    for(i=0;i<a[i]!='\0';i++)
+    for(i=0;i<a[i];i++)
     {
         if(a[i]>='a' && a[i]<='z')
         {
@@ -15,6 +15,6 @@ string uper(string a)
 }
 int main()
 {
-    cout<<uper("bhupen");
+    cout<<uper("bhupen pra");
     return 0;
 }
